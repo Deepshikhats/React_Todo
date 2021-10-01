@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(206, 166, 235);
+    text-align: center;
+}
+.App{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    width: max-content;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+}
+.button1{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: rgb(82, 43, 43);
+    font-weight: 600;
+    border: rgb(4, 16, 20) 2px solid;
+    width: 80px;
+    margin: 20px;
+}
+.input{
+    padding: 5px;
+    background-color: rgb(65, 178, 212);
+    color: white;
+    outline: none;
+    border: rgb(0, 12, 15) 2px solid;
+
+}
+.button2{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border: red 2px solid;
+    width: 50px;
+    margin: 20px;
+}
