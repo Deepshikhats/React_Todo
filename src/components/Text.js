@@ -22,7 +22,7 @@ function Text() {
                 <input className ='input' type='text' placeholder='Enter List' value={items} onChange={handleChange}/>
                 <button className='button1' onClick={handleClick}>Add</button>
             </form>
-            <ul>
+            <ul className='list'>
                 {list.map((val,ind) => <li>{val}<button className='button2' onClick={()=>handleDelete(ind)}>Delete</button></li>)}
             </ul>
             
