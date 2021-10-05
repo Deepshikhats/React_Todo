@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 function Header() {
     return (
         <header>
-            <Link className='header_elem' to='/' >Home</Link>
-            <Link className='header_elem' to ='/Todo App'>Todo App</Link> 
+            <Link className='header_elem' to='/Home' >Home</Link>
+            <Link className='header_elem' to ='/TodoApp'>Todo App</Link> 
         </header>
     )
 }

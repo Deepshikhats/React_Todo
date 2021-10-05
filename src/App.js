@@ -10,8 +10,8 @@ function App() {
   return (
     <Router className="App">
       <Header />
-      <Route path='/' exact component= {Home} />
-      <Route path='/Todo App' exact component= {Text} />
+      <Route path='/Home' exact component= {Home} />
+      <Route path='/TodoApp' exact component= {Text} />
     </Router> 
   );
 }
